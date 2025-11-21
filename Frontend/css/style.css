@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+.navbar{
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-links a:hover{
+    text-decoration: underline;
+}
+.content{
+    padding: 20px;
+    background-image: url('/Images/pic1BG.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);
+    color: #ede4e4;
+}
+.content h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    max-width: 600px;
+}   
+.content p{
+    font-size: 18px;
+    max-width: 600px;
+}
+
+
